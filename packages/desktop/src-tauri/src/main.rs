@@ -20,10 +20,10 @@ fn main() {
       _ => {}
     })
     .setup(| app | {
-      let title = MenuItem::with_id(app, "title", "Revolt", false, None::<&str>)?;
-      let open = MenuItem::with_id(app, "open", "Open Revolt", true, None::<&str>)?;
-      let hide = MenuItem::with_id(app, "hide", "Hide Revolt", true, None::<&str>)?;
-      let quit = MenuItem::with_id(app, "quit", "Quit Revolt", true, None::<&str>)?;
+      let title = MenuItem::with_id(app, "title", "Aurora", false, None::<&str>)?;
+      let open = MenuItem::with_id(app, "open", "Open Aurora", true, None::<&str>)?;
+      let hide = MenuItem::with_id(app, "hide", "Hide Aurora", true, None::<&str>)?;
+      let quit = MenuItem::with_id(app, "quit", "Quit Aurora", true, None::<&str>)?;
 
       let menu = Menu::with_items(app, &[
         &title,

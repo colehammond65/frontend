@@ -1,7 +1,7 @@
 {
   "name": "desktop",
   "version": "0.1.0",
-  "description": "Revolt desktop app.",
+  "description": "Aurora desktop app.",
   "scripts": {
     "tauri": "tauri"
   },
